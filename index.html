@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="chh.css">
+	<link rel="stylesheet" href="jquery-ui.css">
+	<link rel="stylesheet" href="css/minimal.css" />
+	<link rel="stylesheet" href="wowo/animate.min.css">
+	<link rel="stylesheet" href="css/lightbox.min.css" />
+	<link rel="stylesheet" href="swiper/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">		
+	<style>
+	</style>
+</head>
+<body style="background: -webkit-linear-gradient(
+		top,royalblue,skyblue,royalblue)">
+<!-- 头 -->
+<div class="container " align="center">
+	<div class="gz">
+		<div class="jg wow flipInY">广州城建技工学校</div>
+		<div class="yy wow flipInX" href="">GuangzhuCityConstructionVestibulescool</div>
+	</div>
+	<div class="gz gd wow slideInLeft">
+		广州城建技工学校享受国家免学费政策,是广东省重点技工学校
+	</div>
+	<div class=" dhl">
+		<button id="dialog-link" class="ui-button ui-corner-all ui-widget">
+			<span class=" ui-icon-newwin"></span>用户登录
+		</button>
+		<button id="xxzc" class="ui-button ui-corner-all ui-widget">学校政策</button>
+		<button id="xxjs" class="ui-button ui-corner-all ui-widget">学校景色</button>
+		<button id="xxzy" class="ui-button ui-corner-all ui-widget">学校专业</button>
+		<button id="xxrc" class="ui-button ui-corner-all ui-widget">学校人才</button>
+		<button id="xrc" class="ui-button ui-corner-all ui-widget">学校日常</button>
+		<button id="qyhz" class="ui-button ui-corner-all ui-widget">企业合作</button>
+	</div>
+	
+	<div id="dialog" title="请输入注册信息" style="text-align: center;">
+		<p>请输入信息</p>
+		姓名<input name="name"><br>
+		邮箱<input name="yx"><br>
+		密码<input type="password" name="pwd"><br>
+		电话<input name="phone" type="text">
+	</div>
+</div>
+<div class="container">
+	<!-- 轮播图开始 -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="images/1.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="images/2.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="images/3.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="images/4.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="images/5.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="images/6.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="images/7.jpg" alt="">
+			</div>
+		</div>
+		<!-- 分页器 -->
+		<div class="swiper-pagination"></div>
+	</div>
+	<!-- 轮播图结束 -->
+	<h2 id="xsj" class="demoHeaders wow slideInLeft">学校事件</h2>
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">学校活动</a></li>
+			<li><a href="#tabs-2">学校新闻</a></li>
+			<li><a href="#tabs-3">时间动态</a></li>
+		</ul>
+		<div id="tabs-1">
+			<div class="row">
+				<div class="col-lg-9 col-md-9 col-sm-9 col-sm-9">
+					<button class="btn btn-primary" data-toggle="modal" data-target=".myModal4">学校顺利召开6月份全体教职工会议</button>
+					<span class="sj">2018-06-05</span>
+					<hr>
+					<button class="btn btn-primary" data-toggle="modal" data-target=".myModal2">学校与从化区雍禾苑国际幼儿园举行..</button>
+					<span class="sj">2018-06-05</span>
+					<hr>
+					<button class="btn btn-primary" data-toggle="modal" data-target=".myModal5">喜讯：学校建工学子荣获“中仪杯”“灏..</button>
+					<span class="sj">2018-05-25</span>
+					<hr>
+					<button style="float: right;opacity: 0.3;color: black">更多>></button>
+					<!-- <button class="btn btn-primary" data-toggle="modal" data-target=".myModal6">诵读经典 传承文明——学校在广州市属..</button>
+					<span class="sj">2018-05-25</span> -->
+					</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<div class="swiper-container">
+						<div class="swiper-wrapper" align="center">
+							<div class="swiper-slide">
+								<img class="xiao" src="image/1.jpg" alt="">
+								<div><a href="">学校顺利召开6月份全体教职...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="image/2.jpg" alt="">
+								<div><a href="">学校与从化区雍禾苑国际幼...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="image/3.jpg" alt="">
+								<div><a href="">喜讯：学校建工学子荣获...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="image/4.jpg" alt="">
+								<div><a href="">诵读经典 传承文明——学校...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="image/5.jpg" alt="">
+								<div><a href="">学校与诺登集团举行校企合...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="image/6.jpg" alt="">
+								<div><a href="">学校与东莞爱乐居环保科技...</a></div>
+							</div>
+						</div>
+						<!-- 分页器 -->
+						<div align="center" class="swiper-pagination swiper-pagination1"></div>
+					</div>
+				</div>
+				<div id="xxhd" class="modal myModal2" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">学校与从化区雍禾苑国际幼儿园举行实践基地挂牌仪式</h2>
+						<h5 class="x">2018-06-05 08:43 经管教研室：文/谭永坚；图/谭永坚  审核：罗伟鹏</h5>
+						<p>2018年5月31日，学校与从化区雍禾苑国际幼儿园挂牌仪式在雍禾苑国际幼儿园六一文艺庆典活动中隆重举行，雍禾苑国际幼儿园邱董事长、园长陈丽莉，学校副校长计林、经管教研室副主任罗志强、幼儿教育专业带头人钟小云一行出席了本次挂牌仪式。</p>
+						<p>挂牌仪式上，陈园长简要介绍了幼儿园目前的基本情况和未来的发展规划，诚挚的希望在未来的发展中能与学校紧密深入合作，促进双方共同发展。学校计副校长对雍禾苑幼儿园的大力支持表示感谢，希望校企双方不断丰富合作内容，秉承职业技术教育的科学发展之路，为服务经济社会发展培养人才。</p>
+						<div class="swiper-wrapper"><img src="images/xxhd.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">计副校长发言</h1></p>
+						<div class="swiper-wrapper"><img src="images/xxhd2.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">授牌仪式现场</h1></p>
+						<p>本次实践教学基地挂牌仪式的成功举办，深入了校企合作的同时，为学校幼教专业学生提供了新的发展平台，对学校幼教人才培养的发展提供了新的机遇。</p>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+				<div id="xxhd" class="modal myModal4" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">学校顺利召开6月份全体教职工会议</h2>
+						<h5 class="x">2018-06-05 08:43 经管教研室：文/谭永坚；图/谭永坚  审核：罗伟鹏</h5>
+						<p>2018年5月31日，学校与从化区雍禾苑国际幼儿园挂牌仪式在雍禾苑国际幼儿园六一文艺庆典活动中隆重举行，雍禾苑国际幼儿园邱董事长、园长陈丽莉，学校副校长计林、经管教研室副主任罗志强、幼儿教育专业带头人钟小云一行出席了本次挂牌仪式。</p>
+						<p>挂牌仪式上，陈园长简要介绍了幼儿园目前的基本情况和未来的发展规划，诚挚的希望在未来的发展中能与学校紧密深入合作，促进双方共同发展。学校计副校长对雍禾苑幼儿园的大力支持表示感谢，希望校企双方不断丰富合作内容，秉承职业技术教育的科学发展之路，为服务经济社会发展培养人才。</p>
+						<div class="swiper-wrapper"><img src="image/xxhd1.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">新入职教师自我介绍</h1></p>
+						<p>会上，宣读了《关于公布2018年广东省技工院校微信公众号评选活动结果的通知》（粤职协〔2018〕5号），叶校长上台为获奖单位和获奖个人颁发荣誉证书。</p>
+						<div class="swiper-wrapper"><img src="image/xxhd2.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">颁奖现场</h1></p>
+						<p>廖校助以2018年招生工作为切入点，分别从“学校招生总体情况、各教研室招生情况、近期招生工作安排”等方面的内容展开讲话，他希望全体教职员工共同携手、攻坚克难，共创招生佳绩。</p>
+						<div class="swiper-wrapper"><img src="image/xxhd3.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">廖校助讲话</h1></p>
+						<p>叶校长对学校5月份各项工作的开展进行简要总结，并作《“忠”言：00后来袭》的分享。他主要从腾讯发布的《00后研究报告》着手，与与会同仁重点学习了00后的价值观和消费态度，指出学校将来服务和培养的对象是00后，希望全体教职员工结合自身的工作，从各个层级、各个角色、各个身份针对性地做好学校的各项工作。</p>
+						<div class="swiper-wrapper"><img src="image/xxhd4.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">叶校作“忠”言分享</h1></p>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+				<div id="xxhd" class="modal myModal5" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">喜讯：学校建工学子荣获“中仪杯”“灏达杯”五校技能联赛二等奖</h2>
+						<h5 class="x">2018-05-25 16:47 建工教研室：文/张其毅；图/杨卓森  审核：李修波</h5>
+						<p>2018年5月22日，学校建工学子在指导老师张其毅的带领下参加了广东省城市建设技师学院承办的“中仪杯”“灏达杯”五校技能联赛。广东省城市建设技师学院、广州市白云工商技师学院、广东省交通运输技师学院、广东花城工商技工学校以及学校共计100人参加了本次比赛。</p>
+						<p>比赛项目设有“中仪杯”测量技能竞赛和“灏达杯”CAD技能竞赛两个部分，皆为团体赛。学校建工学子在竞赛中表现出色，不畏强敌，最终由陈国樑、李嘉诚、黄金萍、陈彤彤组成的A组夺得“灏达杯”CAD竞赛项目第二名，荣获二等奖，潘秋羽、胡爽、黄宗裕、温泽锋B组获得“灏达杯”CAD竞赛项目优胜奖；王飞武、黄观亮、吴维、林晓钒获得“中仪杯”测量竞赛项目优胜奖。</p>
+						<div class="swiper-wrapper"><img src="image/xxhd5.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">颁奖仪式现场</h1></p>
+						<div class="swiper-wrapper"><img src="image/xxhd6.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">荣誉证书</h1></p>
+						<p>本次五校技能联赛旨在丰富学生的课余生活，加强校际间的交流，促进各校和谐发展，增强团队精神，为广大学子提供一个展示风采的舞台，同时对于提高和完善学校教学改革起到了重要的作用，为挖掘技能型人才奠定了基础。</p>
+						<div class="swiper-wrapper"><img src="image/xxhd7.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">学校选手大合照</h1></p>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+		</div>
+				
+			
+		</div>
+	<div id="tabs-2">
+		<div class="row">
+			<div class="col-lg-9 col-md-9 col-sm-9 col-sm-9">
+				<button class="btn btn-primary" data-toggle="modal" data-target=".myModal3">第五届“校园技能节”之产品推介比...</button>
+				<span class="sj">2018-06-06</span>
+				<hr>
+				<button class="btn btn-primary" data-toggle="modal" data-target=".myModal6">唱响旋律——第五届“校园技能节”之...</button>
+				<span class="sj">2018-06-06</span>
+				<hr>
+				<button class="btn btn-primary" data-toggle="modal" data-target=".myModal7">生命本色 夏日激情——记2017级建工...</button>
+				<span class="sj">2018-06-05</span>
+				<hr>
+				<button style="float: right;opacity: 0.3;color: black">更多>></button>
+			</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" >
+					<div class="swiper-container">
+						<div class="swiper-wrapper" align="center">
+							<div class="swiper-slide">
+								<img class="xiao" src="xxxw/1.jpg" alt="">
+								<div><a href="">生命本色 夏日激情——记20...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="xxxw/2.jpg" alt="">
+								<div><a href="">追梦少年庆六一——2017级...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="xxxw/3.jpg" alt="">
+								<div><a href="">有梦大家行 知识大富翁——...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="xxxw/4.jpg" alt="">
+								<div><a href="">我的团支部我的家——2017...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="xxxw/5.jpg" alt="">
+								<div><a href="">欢庆“六一” 童心飞扬——...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="xxxw/7.jpg" alt="">
+								<div><a href="">唱响旋律——第五届“校园技...</a></div>
+							</div>
+						</div>
+						<!-- 分页器 -->
+						<div class="swiper-pagination swiper-pagination2"></div>
+					</div>
+				</div>
+				<div id="xxhd" class="modal myModal3" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">第五届“校园技能节”之产品推介比赛顺利落幕</h2>
+						<h5 class="x">2018-06-06 16:52 经管教研室：文/陈琳华；图/陈琳华  审核：周正良</h5>
+						<p>2018年6月5日，由经管教研室营销协会承办的第五届“校园技能节”之产品推介总决赛在信工财经楼220教室顺利落幕。本次比赛由广州铧安机电设备工程有限公司赞助，公司代表余瑛仪女士、李舒婷女士，广州从化区国美销售部经理朱伟标，苏宁电器的销售部经理张浩玲，月盛贸易有限公司周总经理莅临比赛现场；经管教研室副主任罗志强，专任教师张运华、莫冬雨，以及营销协会指导老师陈琳华出席活动并担任评委。此外，华夏学院的营销协会一行也到场观摩指导。</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw6.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">比赛现场</h1></p>
+						<p>本次决赛共计17组选手参加，比赛分“PPT产品推介”和“电脑抽题即兴讲解”两个环节，来自2016级电商市营2班的李柏枞同学的激情演讲——“手机低头一族”，真实地揭示了一些社会现实，呼吁大家要丢开手机，回归到正常的社会生活中来，引起现场观众的思考；2016级电商网络1班杨惠秀同学在推介的教程中，请美女模特拿粉红豹与观众激情互动，将现场气氛推向了高潮......各组选手风格各异，可谓是尽展城建风采，更是使整场比赛时刻都沉浸在紧张激烈、活跃积极的氛围之中。</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw7.jpg" alt=""></div>
+						<p><h1  align="center" class="zd">“产品推介”环节</h1></p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw8.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">“即兴讲解”环节</h1></p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw9.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">“评委点评”环节</h1></p>
+						<p>本次比赛，促进了学校对市场营销专业的专业建设和教学改革，体现了学校培养高素质市场营销人员的质量。</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw10.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">奖杯和证书</h1></p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw11.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">赛后合影</h1></p>
+						<p>附第五届“校园技能节”之声乐技能大赛获奖名单:</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw12.png" alt=""></div>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+				<div id="xxhd" class="modal myModal6" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">唱响旋律——第五届“校园技能节”之声乐技能大赛圆满结束</h2>
+						<h5 class="x">2018-06-06 13:57 经管教研室：文/钟小云；图/钟小云  审核：周正良</h5>
+						<p>018年6月5日，第五届“校园技能节”之声乐技能大赛在信工财经楼219课室顺利举行，从化区雍禾苑国际幼儿园园长陈丽莉、从化区维肯中英文国际幼儿园园长王文丽，学校教务科科长周正良、经管教研室主任吴亚锦、幼儿教育专业带头人钟小云、艺术教研室教师李晨出席了本次大赛并担任评委。本次大赛由2016级幼教1班黄芷莹同学担任主持。</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">比赛现场</h1></p>
+						<p>本次声乐技能大赛共有210人报名参赛，通过初赛的选拔，终有11名同学及1名企业人员进入决赛。大赛在从化区雍禾苑国际幼儿园陈园长的致辞声中拉开了序幕，选手们演唱过程声情并貌，观众们被深深的吸引；评委们从音准节奏、歌曲思想感情、台风自然、穿着得体等方面进行点评和评分，从化区维肯中英文国际幼儿园王园长还从学生选歌、服饰搭配等方面做出了精彩的点评；学校周科长作总结发言，他对本次大赛的开展给予了高度的肯定，并提出了期望。</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw1.jpg" alt=""></div><br>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw2.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">选手风采</h1></p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw3.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">周科长总结发言</h1></p>
+						<p>本次声乐大赛旨在构建和谐校园，丰富学子们的校园文化生活，激发他们对声乐学习的兴趣，不仅提升了学子们的声乐技能，展现了风采，还丰富了校园文化生活，增强了学子们的学习兴趣，营造出浓厚的学习氛围。</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw4.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">赛后合影</h1></p>
+						<p>附第五届“校园技能节”之声乐技能大赛获奖名单:</p>
+						<div class="swiper-wrapper"><img src="images/xxxw/xxxw5.png" alt=""></div>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+				<div id="xxhd" class="modal myModal7" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">生命本色夏日激情——记2017级建工2班主题班级活动顺利举行</h2>
+						<h5 class="x">2018-06-05 12:54 建工教研室：文/张其毅；图/李锦茂  审核：李修波</h5>
+						<p>为了凝聚班级力量, 促进学子间感情, 让他们放松自我，2017级建工2班,2018年6月1日前往西禾里别墅山庄举行了为期一天的班级活动。</p>
+						<div class="swiper-wrapper"><img src="images/jg/1.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">亮厨艺</h1></p>
+						<div class="swiper-wrapper"><img src="images/jg/2.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">拼泳技</h1></p>
+						<p>活动内容丰富多彩，学子们兴致饱满，他们以极高的热情投入到活动中，涌现了一批高级厨师、游泳高手、棋牌达人以及超级歌手。厨艺高超的同学在厨房, 为大家准备了丰盛的大餐, 菜品色香味俱全, 刚端上桌就被一抢而空；歌喉不错的同学, 将一首首拿手的歌曲献给大家；爱好台球的同学在一楼切磋球技；最后由班主任张其毅老师与同学们一起进行切蛋糕仪式，庆祝2017级建工2班成立一周年。</p>
+						<div class="swiper-wrapper"><img src="images/jg/3.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">切蛋糕</h1></p>
+						<div class="swiper-wrapper"><img src="images/jg/4.jpg" alt=""></div>
+						<p><h1 align="center" class="zd">2017级建工2班全体大合照</h1></p>
+						<p>本次班级活动的顺利举行, 展现了2017级建工2班全体同学团结友爱的精神风貌, 彰显了学子们的凝聚力与战斗力, 丰富了他们的课余生活, 增进了友谊</p>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tabs-3">
+			<div class="row">
+				<div class="col-lg-9 col-md-9 col-sm-9 col-sm-9">
+					<button class="btn btn-primary" data-toggle="modal" data-target=".myModal8">《中国技工院校发展报告（2017年）..</button><span class="sj">2017-12-21</span>
+					<hr>
+					<button class="btn btn-primary" data-toggle="modal" data-target=".myModal9">教育部印发通知部署2017年第33个教..</button><span class="sj">2017-08-24</span>
+					<hr>
+					<button class="btn btn-primary" data-toggle="modal" data-target=".myModa20">发展技工教育是时代的呼唤（观点）.</button><span class="sj">2017-07-13</span>
+					<hr>
+					<button style="float: right;opacity: 0.3;color: black">更多>></button>
+				</div>		
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<div class="swiper-container">
+						<div class="swiper-wrapper" align="center">
+							<div class="swiper-slide">
+								<img class="xiao" src="images/sj/1.jpg" alt="">
+								<div><a href="">十九大报告</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="images/sj/2.jpg" alt="">
+								<div><a href="">发展技工教育是时代的呼...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="images/sj/3.jpg" alt="">
+								<div><a href="">李克强：切实把职业教育...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="images/sj/4.jpg" alt="">
+								<div><a href="">技工难成青年热门选择？...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="images/sj/5.jpg" alt="">
+								<div><a href="">新产业孕育新希望——技...</a></div>
+							</div>
+							<div class="swiper-slide">
+								<img class="xiao" src="images/sj/6.jpg" alt="">
+								<div><a href="">创业是更加积极的就业——...</a></div>
+							</div>
+						</div>
+							<!-- 分页器 -->
+						<div align="center" class="swiper-pagination swiper-pagination3"></div>
+					</div>
+				</div>
+			</div>
+			<div id="xxhd" class="modal myModal8" align="center">
+				<div class="modal-dialog modal-lg">
+					<h2 class="tou">《中国技工院校发展报告（2017年）》发布</h2>
+					<h5 class="x">2017-12-21 08:45 技能中国：责编/崔玮；主编/杨海波</h5>
+					<p>近日，《中国技工院校发展报告（2017年）》（以下简称《报告》）向社会公布。</p>
+					<div class="swiper-wrapper"><img src="images/sjdt/2.jpg" alt=""></div>
+					<p>该报告是人社部第一本系统梳理技工院校年度发展情况的报告。《报告》定位于介绍发展情况、宣传发展成效、研判发展形势、明确发展目标，推动全国技工院校改革创新发展。</p>
+					<p><h1 align="center" class="zd">8大内容</h1></p>
+					<p><h1 align="center" class="zd">总体情况、统计数据、新形势新需求、政策措施与实践探索、目标任务、历年数据、大事记、创新发展案例。《报告》是系统了解技工院校发展状况的指导手册，也是宣传技工院校发展成效、提高技工院校社会知名度的重要途径。技工院校是人力资源和社会保障部门主管，以培养技术工人为主要目标的专门学校，是国民教育体系和人力资源开发的重要组成部分。经过60多年的发展，技工院校已经成为综合性的技工教育和职业培训基地、高技能人才培养的重要阵地、世界技能大赛主要集训基地、与企业联系紧密的办学实体，形成了鲜明的办学特色和独特的技能人才培养优势。</h1></p>
+					<p><h1 align="center" class="zd">2016年各级人社部门开展以下工作</h1></p>
+					<p>截至2016年底，全国共有技工院校2526所，在校生超323.2万人。2016年，技工院校招生127.2万人，比2015年提高4.8%，其中招收农村籍学生98.6万人，占招生总数的77.5%；毕业生93.1万人，90.9万人实现就业，就业率为97.6%；全年开展社会培训451.6万人次，为促进就业和社会经济发展提供了强有力的技能人才支撑。</p>
+					<p>同时，高技能人才培养规模逐步扩大，高端引领作用凸显。</p>
+					<p>
+						<h1 align="center" class="zd">一是高级工以上学制教育规模扩大。</h1>
+						<h3>2016年高级工以上在校生达117.8万人，占在校生总数的36.5%。</h3>
+					</p>
+					<p>
+						<h1 align="center" class="zd">二是社会培训层次不断提高。</h1>
+						<h3>2016年，高级工及以上职业资格取证人数达43.3万人，占总培训人数的19.9%。</h3>
+					</p>
+					<p>
+						<h1 align="center" class="zd">三是校企合作深入推进。</h1>
+						<h3>多省份开展学制教育培养技师试点和企业新型学徒制试点，面向企业职工开展技师和高级技师培训，高技能人才培养规模和质量逐年稳步提升。</h3>
+					</p>
+					<p><h1 align="center" class="zd">技工院校发展机遇与挑战并存</h1></p>
+					<p>一方面，党和国家高度重视、从宏观层面做出了战略部署，技工院校面临前所未有的发展机遇；经济社会发展对技能人才不断增长的强劲需求，为技工教育事业发展开辟了广阔空间；职业能力建设事业的整体推进，为技工教育事业发展创造了有利条件。</p>
+					<p>另一方面，法律法规缺失问题比较凸出，完善顶层设计的任务艰巨；技工院校投入不足、发展不平衡问题亟待解决；稳定招生规模、提高生源质量面临较大挑战。</p>
+					<p><h1 align="center" class="zd">技工教育事业大有可为技工教育发展任重道远</h1></p>
+					<p>作为培养大国工匠的摇篮，技工院校必须为加快转变经济发展方式、实施创新驱动发展战略提供强有力的技能人才支撑，必须为供给侧结构性改革和经济社会转型发展中面临的就业结构性矛盾提供解决途径。“十三五”时期要打造技能人才培养层次和规模与经济社会发展更加匹配的现代技工教育体系，以市场需求为引领，优化技工院校结构和布局；以完善技工教育、公共实训、技师研修、竞赛集训、技能评价、就业服务六大功能为核心，增强技工教育的社会服务能力；以制度建设为重点，提高技工院校管理水平；以深化校企合作、加强专业建设和课程教学改革为抓手，推进技工教育质量提升；以高技能人才培养为龙头，提升技工教育层次，突出办学特色；以法规建设和政策、资金支持为基础，优化技工教育发展环境；以加强领导统筹为重心，落实好各项保障措施。</p>
+					<p>技工教育事业大有可为，技工教育发展任重道远，我们要全面贯彻落实党的十九大精神，以习近平新时代中国特色社会主义思想为指导，大力发展技工教育，狠抓十三五规划的贯彻落实，更好地培养和造就大国工匠和更多技能人才，促进就业结构优化，推动中国制造实现转型升级、中国经济发展跃上中高端。</p>
+					<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+				</div>
+			</div>
+			<div id="xxhd" class="modal myModal9" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">教育部印发通知部署2017年第33个教师节宣传庆祝工作</h2>
+						<h5 class="x">2017-08-24 08:27 教育部</h5>
+						<p>近日，教育部印发《关于做好庆祝2017年教师节有关工作的通知》，对务实简朴开展好2017年第33个教师节宣传庆祝工作作出部署。</p>
+						<p>通知指出，党的十八大以来，在习近平总书记教育思想指引下，教育和教师工作取得新进展新成效，教师队伍呈现新形象新风貌，组织好2017年教师节庆祝活动，对于营造尊师重教的浓厚社会氛围，团结凝聚全系统的力量，为实现 “两个一百年”奋斗目标、实现中华民族伟大复兴中国梦作出新贡献，具有重要意义。</p>
+						<p>通知明确，今年教师节的主题是：迎接党的十九大，做好学生引路人。教育部将会同有关部门对党的十八大以来涌现的优秀教师典型进行分层次、成系列地挖掘和宣传，组织开展向黄大年同志学习活动，推选新中国教育名家大师、2017年全国教书育人楷模，开展当代教师风采微视频展播，会同中央电视台开展“寻找最美教师”等活动。</p>
+						<p>通知要求，各地各校要依据主题、结合实际，认真组织开展相关活动。一是突出“美”，大力宣传可亲、可敬、可爱教师典型。结合学习贯彻习近平总书记对黄大年先进事迹重要指示精神，通过多种形式深入挖掘宣传优秀教师典型，讲好教书育人故事，生动展示当代教师阳光美丽、爱岗敬业、无私奉献、成绩凸显的大美形象，唱响新时期教育改革发展主旋律，不断激发教师的职业荣誉感和教书育人的积极性、创造性。二是强调“实”，不遗余力为教师解难题、办实事、做好事。要把对教师的关爱与尊重落到实实在在的行动上，解决实际困难、采取务实举措、落实惠师政策，少干扰、不添乱，让广大教师安心从教、热心从教、舒心从教、静心从教。要重点关注乡村一线教师、离退休老教师、贫困教师以及因公殉职教职工家属，开展走访慰问活动，送去党和政府的关怀和温暖。三是做到“广”，动员各方力量共谋划、同行动、齐参与。开放搞宣传、办活动，通过多种方式动员群众参与，让群众深入了解教育、教师，增进联系、增强共鸣。要鼓励社会力量举办尊师重教活动，提供必要的支持和便利。要结合“两学一做”学习教育常态化制度化，务实、简朴开展教师节各项活动，主动接受社会监督，确保广大教师过一个喜庆、祥和的节日。</p>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			<div id="xxhd" class="modal myModa20" align="center">
+					<div class="modal-dialog modal-lg">
+						<h2 class="tou">发展技工教育是时代的呼唤（观点）</h2>
+						<h5 class="x">2017-07-13 08:44 人力资源和社会保障部职业能力建设司司长张立新</h5>
+						<p>在不久前闭幕的2017年中国国际技能大赛上，我国76名技能健儿与来自34个国家和地区的160余名选手同台竞技，这些青年表现出来的精神风貌、职业素养得到业内同行和社会公众的广泛赞誉。值得一提的是，在2015年举行的第四十三届世界技能大赛上，我国取得了5金、6银、4铜和11个优胜奖的优异成绩，29名获奖选手中有24名来自技工院校，从一个侧面反映了我国技工教育的水平和实力。</p>
+						<p>技工教育是与制造业和服务业联系最密切、与就业创业更是无缝对接的一种教育类型，是培养产业工人、技术工人的主阵地。截至2016年底，全国共有技工院校2526所，在校生323万人，毕业生就业率一直保持在97%以上，技校学生在毕业前一两年甚至入学时就被企业早早预定。我们耳熟能详的那些大国工匠：雕刻火药的航天人徐立平、火箭焊接大师高凤林、数控革新专家鲁宏勋、工人发明家李斌等，都是技工院校的毕业生。2016年表彰的30名中华技能大奖获得者，有20人来自技工院校。尽管如此，由于受“重学历、轻技能”“学而优则仕”等传统观念的影响，我国技工教育并不为社会普遍认可和重视，长期面临“招生难”困境，与毕业生“就业旺”形成鲜明对比。而在德国，学生完成义务教育后，70%的学生将接受技工教育，这些人中90%以上毕业后将直接就业，这在欧美等发达国家已不是个别现象。</p>
+						<p>当前，各国普遍把壮大实体经济、推动制造业转型升级、发展现代服务业，作为促进经济发展的重要举措，我国也制定了“中国制造2025”等战略，这些都需要一支高素质的技能人才队伍作支撑。如今，我们欣喜地看到，社会各界对发展技工教育的重要性认识不断提高。习近平总书记指出：“作为一个制造业大国，我们的人才基础应该是技工”，“要大力培育支撑中国制造、中国创造的高技能人才队伍”。今年以来，国务院印发的《“十三五”促进就业规划》和《关于做好当前和今后一段时期就业创业工作的意见》，都明确提出“大力发展技工教育”的要求。湖北、安徽、云南等地在推进技能强省、技工大省建设，一些城市在打造技能型城市，社会舆论也都从不同角度，不断地呼吁全社会更加重视技工教育，加快技能人才培养。越来越多的学生和家长逐渐认识到，学会一技之长，同样可以实现出彩人生。在2017年中国国际技能大赛上，我们看到很多家长、中小学生到现场观摩，对高水平的技工充满向往。这些都对技工教育工作提出了新的更高的要求，也提供了难得的发展机遇。</p>
+						<p>2016年底，人社部印发了《技工教育“十三五”规划》，这是我国首个技工教育五年规划。我们将认真学习贯彻习近平总书记系列重要讲话精神，把贯彻落实《技工教育“十三五”规划》作为当前和今后一个时期的重点工作，切实把国务院大力发展技工教育的要求落到实处。我们要加快制定提高技术工人待遇的政策措施，让更多年轻人看到上技校、学技能的“红利”；我们要进一步服务脱贫攻坚等国家战略，让更多贫困家庭的孩子走技能成才、技能就业之路，实现技能脱贫；我们要不断完善生均拨款等支持性政策，深化校企合作，加大资金投入，更好地提升技工院校的办学水平和条件，进一步提高学生的职业能力和就业质量；我们要把弘扬和培育工匠精神贯穿技工教育全过程，使之成为技工教育的鲜明特征，培养全面合格的后备产业工人和高技能人才；我们要加大宣传力度，让更多的人了解技工教育、认同技能成才、投身技能报国……总之，面对新的时代要求，技工教育人必须牢记使命、不忘初心、勇于担当、改革创新。我们也希望全社会都关心、关注和支持技工教育，各行各业都大力弘扬工匠精神，将“三百六十行，行行出状元”的理念播撒到全社会，让“新青年、新技能、新梦想”成为时代风尚。</p>
+						<p style="float: right;">（作者为人力资源和社会保障部职业能力建设司司长）</p>
+						<button class="an2" style="color: #fff" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+<div class="wow slideInRight" style="font-size: 20px;">校企合作单位:</div>
+<!--behavior方式 loop次数-->
+	<marquee behavior=scroll loop=true scrollamount=6 scrolldelay=10 align=bottom  height=70 hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start() position=absolute> 
+		<img src="images/gg/1.jpg" alt="">
+		<img src="images/gg/2.jpg" alt="">
+		<img src="images/gg/3.jpg" alt="">
+		<img src="images/gg/4.jpg" alt="">
+		<img src="images/gg/5.jpg" alt="">
+		<img src="images/gg/6.jpg" alt="">
+		<img src="images/gg/7.png" alt="">
+		<img src="images/gg/8.png" alt="">
+		<img src="images/gg/9.png" alt="">
+		<img src="images/gg/10.png" alt="">
+	</marquee>
+</div>
+<div id="foot" class="container">
+	<div class="jbdl" align="center">
+		<button id="zgjy" class="ui-button ui-corner-all ui-widget">
+			<a href="">中国教育网</a>
+		</button>
+		<button id="zgjd" class="ui-button ui-corner-all ui-widget">
+			<a href="">中国禁毒展览</a>
+		</button>
+		<button id="jg" class="ui-button ui-corner-all ui-widget">
+			<a href="">广东省技工教育在线</a>
+		</button>
+		<button id="jy" class="ui-button ui-corner-all ui-widget">
+			<a href="">广东省就业网</a>
+		</button>
+		<button id="zy" class="ui-button ui-corner-all ui-widget">
+			<a href="">广州职业网</a>
+		</button>
+		<button id="cj" class="ui-button ui-corner-all ui-widget">
+			<a href="">广州城建技工学校</a>
+		</button>
+	</div>
+	<div class="wow flipInY" id="jw">
+		<div id="ewm">
+			<img src="fot/xxgw.jpg" alt="">
+			<a>学校官网</a>
+		</div>
+		<div id="ewm">
+			<img src="fot/zgjdg.jpg" alt="">
+			<a href="">中国禁毒馆</a>
+		</div>
+		<div id="ewm">
+			<img src="fot/gdjdg.jpg" alt="">
+			<a href="">广东禁毒馆</a>
+		</div>
+		<div id="lx">
+			<span>招生咨询热线：020-37984999 传真：020-37984333 </span><br>
+			<span>地 址：广州市从化环市东路166号</span><br>
+			<span>邮编：510925 粤ICP备16043362号 </span>
+			<div>
+				<img src="fot/ga.png" alt="">
+				<a href="">粤公网安备 44011702000070号</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="dhty wow slideInRight">
+	<a href="">
+		<div><img src="image/jx-gg.png" ></div>
+	</a>
+	<a href=""><div class="zxzc">在线注册</div></a>
+	<a href=""><div class="zxcx">在线查询</div></a>
+	<a href=""><div class="zycx">专业查询</div></a>
+	<a href=""><div class="ywcx">疑问查询</div></a>
+	<a href="http://720yun.com/t/5y92dag2dgc2gopg0w?pano_id=psFbUFFUbyoRUJP2"><div class="xxhs">学校环视</div></a>
+</div>
+	<script src="jq/lightbox-plus-jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="swiper/swiper-3.4.2.min.js"></script>
+	<script src="external/jquery/jquery.js"></script>
+	<script src="bootstrap/js/jq.js"></script>
+	<script src="jq/jquery-ui.js"></script>
+	<script src="wowo/wow.min.js"></script>
+	<script>
+	new WOW().init();
+		$("#dialog").dialog({
+	Open:"open",
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "确认",
+			color:'green',
+			click: function() {
+				var result = "<tr><td>"+$("input[name=name]").val()
+				+"</td><td>"+$("input[name=yx]").val()
+				+"</td><td>"+$("input[name=pwd]").val()
+				+"</td><td>"+$("input[name=phone]").val()+"</td><tr>"
+				// $("table").append(result);
+				$( this ).dialog( "close" );
+			}
+		},
+		{
+			text: "取消",
+			click: function() {	$( this ).dialog( "close" );}
+		}
+	]
+});
+$( "#dialog-link" ).click(function( event ) {
+	$( "#dialog" ).dialog( "open" );
+	event.preventDefault();
+});
+		var mySwiper = new Swiper('.swiper-container', {
+			pagination : '.swiper-pagination',
+			paginationClickable :true,
+			autoplay: 5000,
+		});
+		var mySwiper = new Swiper('.swiper-container', {
+			pagination : '.swiper-pagination',
+			paginationClickable :true,
+			autoplay: 1000,
+			observeParents:true,
+			loop:true,
+			autoplayDisableOnInteraction : true,
+			observer:true,
+            observeParents:true,
+		});
+$( "#tabs" ).tabs();
+ lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': false,
+	  'positionFromTop' : 100
+    });
+    </script>
+</body>
+</html>

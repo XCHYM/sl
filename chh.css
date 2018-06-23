@@ -1,0 +1,197 @@
+.gz a:hover{
+	 text-decoration:none;
+	}
+.sy{
+/*width: 200px;*/
+text-align: center;
+font-size: 20px;
+background: -webkit-linear-gradient(
+		left,royalblue,skyblue,royalblue)
+}
+.gz{
+	background: -webkit-linear-gradient(
+		left,royalblue,skyblue,royalblue)
+}
+.jg{
+	 font-size: 30px;
+	 font-family:STCaiyun;
+}
+.yy{
+	font-family:STLiti ;
+	font-size: 20px;
+	opacity: 0.5;
+}
+/*轮播图*/
+.swiper-wrapper img{
+	width: 100%;
+}
+.xiao{
+	width: 250px;
+	height: 200px;
+}
+.dropdown{
+	position:relative;
+}
+.dropdown:hover .dropdown-content {
+  	display: block;
+}
+.dropdown-content {
+	position: absolute;
+	z-index:99;
+	top:26;
+	left:0;
+  	display: none;
+  	background: skyblue;
+  	text-align: center;
+  	/*width: 70px;*/
+}
+/*导航栏*/
+.dhl{
+	background: -webkit-linear-gradient(
+		left,royalblue,skyblue,royalblue)
+}
+/*按钮*/
+#dialog-link,#xxzc,#xxjs,#xxzy,#xxrc,#xrc,#qyhz,#lsdl{
+	background: skyblue;
+	margin-right: 10px;
+}
+.zxzc,.zycx,.xxhs{
+	line-height: 31px;
+	text-align: center;
+	height: 30px;
+	margin-top: 20px;
+	background: green;
+	opacity: 0.6;
+}
+.ywcx,.zxcx{
+	line-height: 31px;
+	text-align: center;
+	height: 30px;
+	margin-top: 20px;
+	background: red;
+	opacity: 0.6;
+}
+.dhty{
+	z-index: 999; 
+	position: fixed; 
+	bottom: 30%; 
+	right: 10px;
+}
+.dhty div:hover{
+	opacity: 1;
+}
+div a{
+	color: #fff;
+}
+.sj{
+	float: right;
+	opacity: 0.5
+}
+/*注册*/
+#dialog{
+	background: -webkit-linear-gradient(
+		left,royalblue,skyblue,royalblue)
+}
+/*隐藏的div样式*/
+
+#xxhd{
+background-color:skyblue;
+color: #fff;
+/*opacity: 0.8;*/
+}
+/*关闭按钮*/
+.an2{
+	background: royalblue;
+	color: skyblue;
+	opacity: 0.5;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+/*字*/
+.x{
+	opacity: 0.6;
+}
+.tou{
+	color: red;
+	opacity: 0.8;
+}
+.zd{
+	color: red;
+}
+p{
+	font-size: 20px;
+}
+#xsj{
+	text-align: center;
+	font-family:STXingkai;
+}
+/*脚步*/
+#foot{
+	height: 150px;
+	background: -webkit-linear-gradient(
+	left,royalblue,skyblue,royalblue)
+}
+.jbdl{
+	background: blue;
+}
+#zgjy,#zgjd,#jg,#jy,#zy,#cj{
+	background: skyblue;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#jw{
+
+}
+#ewm{
+	margin-top: 10px;
+	float: left;
+	width: 80px;
+	margin-left: 20px;	
+}
+#ewm a{
+	margin-left: 9px;
+	color: #fff;
+	/*text-align: center;*/
+}
+#lx{
+	width: 330px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+@media screen and (max-width: 992px){
+	#foot{
+		height:200px;
+	}
+}
+@media screen and (max-width: 769px){
+	#lx{
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 700px){
+	#ewm{
+		margin-left: 90px;
+	}
+	#lx{
+		display: none;
+	}
+}
+.gd{
+	/*background: skyblue;*/
+	font-family:STLiti ;
+	font-size: 25px;
+}
+/*direction表示滚动的方向，值可以是left，right，up，down，默认为left */
+/*behavior表示滚动的方式，值可以是scroll（连续滚动）slide（滑动一次）alternate（往返滚动） */
+/*loop表示循环的次数，值是正整数，默认为无限循环 */
+/*scrollamount表示运动速度，值是正整数，默认为6 */
+/*scrolldelay表示停顿时间，值是正整数，默认为0，单位似乎是毫秒 */
+/*align表示元素的垂直对齐方式，值可以是top，middle，bottom，默认为middle */
+/*bgcolor表示运动区域的背景色，值是16进制的RGB颜色，默认为白色 */
+/*height、width表示运动区域的高度和宽度，值是正整数（单位是像素）或百分数，默认width=100% height为标签内元素的高度 */
+/*hspace、vspace表示元素到区域边界的水平距离和垂直距离，值是正整数，单位是像素。*/
+/*onmouseover=this.stop() onmouseout=this.start()表示当鼠标以上区域的时候滚动停止，当鼠标移开的时候又继续滚动。*/

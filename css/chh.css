@@ -1,0 +1,49 @@
+.gz a{
+	text-decoration:none;
+}
+.sy{
+/*width: 200px;*/
+text-align: center;
+font-size: 20px;
+background: -webkit-linear-gradient(
+		left,royalblue,skyblue,royalblue)
+}
+.gz{
+	background: -webkit-linear-gradient(
+		left,royalblue,skyblue,royalblue)
+}
+.jg{
+	 font-size: 30px;
+	 font-family:STXingkai;
+}
+.yy{
+	font-family:STLiti ;
+	font-size: 20px;
+	opacity: 0.5;
+}
+.swiper-wrapper img{
+	width: 100%;
+}
+.dropdown{
+	position:relative;
+}
+.dropdown:hover .dropdown-content {
+  	display: block;
+}
+.dropdown-content {
+	position: absolute;
+	z-index:99;
+	top:26;
+	left:0;
+  	display: none;
+  	background: skyblue;
+  	text-align: center;
+  	/*width: 70px;*/
+}
+/*注册*/
+.zc{
+
+}
+.zcb{
+
+}
